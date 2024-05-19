@@ -1,0 +1,18 @@
+.btn{
+   
+    padding: 10px 25px;
+    text-align: center;
+    transition: .5s;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: 0;
+    background-image: linear-gradient(to right, rgb(75, 108, 183) 0%, rgb(24, 40, 72) 51%, rgb(75, 108, 183) 100%);
+    &:hover{
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+}

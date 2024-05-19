@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* You can add global styles to this file, and also import other style files */
+
+.movie-wrap:hover .card:not(:hover){
+        opacity: .8;
+        transform: scale(0.85);  
+        transition: all 0.3s;
+}

@@ -1,0 +1,24 @@
+<div class="product__list-wrap" *ngIf="data">
+    <a
+            
+              [routerLink]="['/productDetails',data.id]"
+              target="_self"
+              routerLinkActive="router-link-active"
+              >
+<div class="product__category">
+    {{data.category}}
+</div>
+  <div class="product__image">
+    <img src="{{ data.image }}" alt="{{ data.id }}" />
+  </div>
+  <div class="product__title">
+    <div class="title">
+        {{data.title}}
+    </div>
+    <div class="priceBtn">
+<div class="price">Price: {{data.price}}</div>
+<!--  -->
+    </div>
+  </div>
+</a>
+</div>

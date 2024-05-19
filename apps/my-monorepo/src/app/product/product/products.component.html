@@ -1,0 +1,9 @@
+<ng-container *ngIf="productList$ | async as data">
+<div class="plp-wrap">
+    <div *ngFor="let item of data">
+        <app-product-list [data]="item"/> </div>
+</div>
+
+   
+</ng-container>
+

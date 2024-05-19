@@ -1,0 +1,20 @@
+{
+  "hosting": [
+    {
+      "target": "my-monorepo",
+      "public": "dist/apps/my-monorepo",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "my-react-app",
+      "public": "dist/apps/my-react-app",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    },
+    {
+      "target": "my-react-movie",
+      "public": "dist/apps/my-react-movie",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    }
+
+  ]
+}

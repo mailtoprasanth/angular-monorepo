@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "monorepo-6b6e1"
+  },
+  "targets": {
+    "monorepo-6b6e1": {
+      "hosting": {
+        "my-react-app": [
+          "nx-react-note"
+        ],
+        "my-monorepo":[
+          "nx-angular-cart"
+        ],
+        "my-react-movie":[
+          "nx-react-movie"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
